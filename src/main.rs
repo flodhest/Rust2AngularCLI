@@ -29,10 +29,9 @@ fn setup_project_directories_and_files(project_name: &str) {
             "src/app",
             "src/assets",
             "src",
-            "src/components",
-            "src/service",
-            "src/models",
-        
+            "src/app/components",
+            "src/app/service",
+            "src/app/models",
         ],
     );
 
@@ -40,9 +39,8 @@ fn setup_project_directories_and_files(project_name: &str) {
     create_directories(
         &angular_app_path,
         &[
-        
-            "src/components/PlaceholderComponent1",
-            "src/components/PlaceholderComponent2",
+            "src/app/components/PlaceholderComponent1",
+            "src/app/components/PlaceholderComponent2",
         ],
     );
 
@@ -50,46 +48,46 @@ fn setup_project_directories_and_files(project_name: &str) {
     copy_template_file(
         "src/PlaceholderComponent1.ts.txt",
         &angular_app_path,
-        "src/components/PlaceholderComponent1/PlaceholderComponent1.ts",
+        "src/app/components/PlaceholderComponent1/PlaceholderComponent1.ts",
     );
     copy_template_file(
         "src/PlaceholderComponent1.html.txt",
         &angular_app_path,
-        "src/components/PlaceholderComponent1/PlaceholderComponent1.html",
+        "src/app/components/PlaceholderComponent1/PlaceholderComponent1.html",
     );
     generate_empty_scss_file(
         &angular_app_path,
-        "src/components/PlaceholderComponent1/PlaceholderComponent1.scss",
+        "src/app/components/PlaceholderComponent1/PlaceholderComponent1.scss",
     );
 
     // Read and write PlaceholderComponent2 content
     copy_template_file(
         "src/PlaceholderComponent2.ts.txt",
         &angular_app_path,
-        "src/components/PlaceholderComponent2/PlaceholderComponent2.ts",
+        "src/app/components/PlaceholderComponent2/PlaceholderComponent2.ts",
     );
     copy_template_file(
         "src/PlaceholderComponent2.html.txt",
         &angular_app_path,
-        "src/components/PlaceholderComponent2/PlaceholderComponent2.html",
+        "src/app/components/PlaceholderComponent2/PlaceholderComponent2.html",
     );
     generate_empty_scss_file(
         &angular_app_path,
-        "src/components/PlaceholderComponent2/PlaceholderComponent2.scss",
+        "src/app/components/PlaceholderComponent2/PlaceholderComponent2.scss",
     );
 
     // Read and write BackendService boilerplate content
     copy_template_file(
         "src/backend_service_boilerplate.txt",
         &angular_app_path,
-        "src/Service/Service.ts",
+        "src/app/Service/Service.ts",
     );
 
     // Read and write PlaceholderModel content
     copy_template_file(
         "src/models.txt",
         &angular_app_path,
-        "src/Models/PlaceholderModel.ts",
+        "src/app/Models/PlaceholderModel.ts",
     );
 
     // Read and write app.component.html content
@@ -137,18 +135,17 @@ fn setup_project_directories_and_files(project_name: &str) {
     copy_template_file("src/styles.scss.txt", &angular_app_path, "src/styles.scss");
 
     // Write development and production environment files
-    create_directories(&angular_app_path, &["enviroment"]);  // Create enviroment directory
+
     fs::write(
-        format!("{}/enviroment/env.development", &angular_app_path,),
+        format!("{}/env.development", &angular_app_path,),
         "REACT_APP_ENV=development",
     )
     .expect("Failed to create .env.development file");
     fs::write(
-        format!("{}/enviroment/env.production", &angular_app_path,),
+        format!("{}/env.production", &angular_app_path,),
         "REACT_APP_ENV=production",
     )
     .expect("Failed to create .env.production file");
-    
 
     // Read and write tsconfig.json template content
     copy_template_file(
@@ -166,7 +163,7 @@ fn setup_project_directories_and_files(project_name: &str) {
         &angular_app_path,
         " tsconfig.spec.json",
     );
-    copy_template_file("src/readme_template.txt", &angular_app_path, "README.md");
+
     copy_template_file("src/eslint_template.txt", &angular_app_path, ".eslint.json");
     copy_template_file(
         "src/angular_json_template.txt",
