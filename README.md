@@ -1,6 +1,6 @@
-# Rust2AngularCLI 🚀
+# Rust2AngularCLI 🦀
 
-Automate Angular project setup with Rust! 🦀
+Automate Angular project setup with Rust! 
 
 <details>
   <summary>🌲 **Project Structure Tree**</summary>
@@ -61,7 +61,7 @@ project-name
 
 - **Linting and Code Formatting:** Ensure code consistency with ESLint and Prettier integration. 
 
-- **Environment Configuration:** Customize environment variables for different environments (dev, staging, production). ⚙
+- **Environment Configuration:** Customize environment variables for different environments (dev, staging, production). 
 
 - **Ahead-of-Time Compilation (AOT):** Improve Angular app performance and security with AOT compilation. 
 
@@ -71,7 +71,6 @@ Before using Rust2ReactCLI, ensure that you have Node.js version >=16.20.2 insta
 
 ## 🏁 Getting Started
 
-<details>
   <summary>🚀 **Quick Start Guide**</summary>
 
 1. **Clone the Rust2AngularCLI repository to your local machine:**
@@ -112,7 +111,6 @@ Before using Rust2ReactCLI, ensure that you have Node.js version >=16.20.2 insta
    ```bash
    yarn start
    ```
-</details>
 
 ## 🚧 Additional Resources
 
