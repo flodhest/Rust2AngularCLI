@@ -55,7 +55,7 @@ project-name
 
 - **RxJS Integration:** The project incorporates RxJS for reactive programming, enabling efficient handling of asynchronous tasks. Leverage the power of observables and operators to manage data flow and events in your Angular application. 
 
-- **Browser Routing:** Implement smooth navigation between pages with browser routing. 
+- **SPA & Browser Routing:** Implement smooth navigation between pages with browser routing. 
 
 - **Unit Testing Configuration:** Easily configure unit testing using Karma and Jasmine. 
 
