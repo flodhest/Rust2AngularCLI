@@ -32,15 +32,12 @@ project-name
 │   │   ├── env.development
 │   │   └── env.production
 │   ├── index.html
-│   ├── manifest.webmanifest
 │   ├── ngsw-config.json
 │   ├── styles.scss
 │   └── README.md
 ├── .eslintrc.json
 ├── .gitignore
-├── .prettierrc
 ├── angular.json
-├── karma.conf.js
 ├── package.json
 ├── README.md
 ├── tsconfig.base.json
