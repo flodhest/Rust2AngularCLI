@@ -1,6 +1,6 @@
-# Rust2AngularCLI
+# Rust2AngularCLI 🚀
 
-Automate Angular project setup with Rust!
+Automate Angular project setup with Rust! 🦀
 
 <details>
   <summary>🌲 **Project Structure Tree**</summary>
@@ -47,29 +47,32 @@ project-name
 
 **Angular CLI Rust Setup** is a handy Rust CLI tool that streamlines Angular project creation, adding powerful features effortlessly.
 
-## Features
+## 🚀 Features
 
-- **Angular Material Integration:** Enhance your UI with Material Design components and icons.
+- **Angular Material Integration:** Enhance your UI with Material Design components and icons. 
 
-- **PWA Service Worker Configuration:** Enable PWA features with service worker support for offline caching and push notifications.
+- **PWA Service Worker Configuration:** Enable PWA features with service worker support for offline caching and push notifications. 
 
-- **RxJS Integration:** The project incorporates RxJS for reactive programming, enabling efficient handling of asynchronous tasks. Leverage the power of observables and operators to manage data flow and events in your Angular application.
+- **RxJS Integration:** The project incorporates RxJS for reactive programming, enabling efficient handling of asynchronous tasks. Leverage the power of observables and operators to manage data flow and events in your Angular application. 
 
-- **Browser Routing:** Implement smooth navigation between pages with browser routing.
+- **Browser Routing:** Implement smooth navigation between pages with browser routing. 
 
-- **Unit Testing Configuration:** Easily configure unit testing using Karma and Jasmine.
+- **Unit Testing Configuration:** Easily configure unit testing using Karma and Jasmine. 
 
-- **Linting and Code Formatting:** Ensure code consistency with ESLint and Prettier integration.
+- **Linting and Code Formatting:** Ensure code consistency with ESLint and Prettier integration. 
 
-- **Environment Configuration:** Customize environment variables for different environments (dev, staging, production).
+- **Environment Configuration:** Customize environment variables for different environments (dev, staging, production). ⚙
 
-- **Ahead-of-Time Compilation (AOT):** Improve Angular app performance and security with AOT compilation.
+- **Ahead-of-Time Compilation (AOT):** Improve Angular app performance and security with AOT compilation. 
 
 ## 🛠 Prerequisites
 
 Before using Rust2ReactCLI, ensure that you have Node.js version >=16.20.2 installed on your machine. [Download Node.js](https://nodejs.org/dist/latest-v16.x/)
 
 ## 🏁 Getting Started
+
+<details>
+  <summary>🚀 **Quick Start Guide**</summary>
 
 1. **Clone the Rust2AngularCLI repository to your local machine:**
    ```bash
@@ -109,6 +112,7 @@ Before using Rust2ReactCLI, ensure that you have Node.js version >=16.20.2 insta
    ```bash
    yarn start
    ```
+</details>
 
 ## 🚧 Additional Resources
 
